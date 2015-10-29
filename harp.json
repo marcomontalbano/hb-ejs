@@ -1,0 +1,16 @@
+{
+    "globals": {
+        "title": "Harp Boilerplate • Marco Montalbano",
+        "description": "A Harp Boilerplate.",
+        "name": "Marco Montalbano",
+        "email": "marcomontalbano.work@gmail.com",
+        "uri": "marcomontalbano.com",
+
+        "config": {
+            "assets": {
+                "folder_css" : "assets/stylesheets",
+                "folder_js"  : "assets/javascripts"
+            }
+        }
+    }
+}
