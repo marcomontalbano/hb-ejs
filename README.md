@@ -8,7 +8,7 @@ Harp is the static web server with built-in preprocessing. [Get started with Har
 
 ```sh
 sudo npm install -g harp
-harp init myproject -b mmontalbano/hb-ejs
+harp init -b mmontalbano/hb-ejs myproject
 harp server myproject
 ```
 
