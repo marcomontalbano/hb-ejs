@@ -1,7 +1,7 @@
 {
     "globals": {
-        "title": "Harp Boilerplate • Marco Montalbano",
-        "description": "A Harp Boilerplate.",
+        "title": "Harp Boilerplate • ejs",
+        "description": "A Harp boilerplate that uses `.ejs` instead of `.jade`.",
         "name": "Marco Montalbano",
         "email": "marcomontalbano.work@gmail.com",
         "uri": "marcomontalbano.com",

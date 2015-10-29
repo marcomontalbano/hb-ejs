@@ -18,4 +18,4 @@ Now visit [localhost:9000](http://localhost:9000) in your browser.
 
 [The MIT License (MIT)](LICENSE.md)
 
-Copyright © 2015 Marco Montalbano
+Copyright © 2015 [Marco Montalbano](http://marcomontalbano.com)
