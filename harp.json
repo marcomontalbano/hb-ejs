@@ -6,10 +6,15 @@
         "email": "marcomontalbano.work@gmail.com",
         "uri": "marcomontalbano.com",
 
+        "meta": {
+            "title": "Harp Boilerplate • ejs",
+            "description": "A Harp boilerplate that uses `.ejs` instead of `.jade`."
+        },
+
         "config": {
             "assets": {
-                "folder_css" : "assets/stylesheets",
-                "folder_js"  : "assets/javascripts"
+                "folder_css" : "/assets/stylesheets",
+                "folder_js"  : "/assets/javascripts"
             }
         }
     }

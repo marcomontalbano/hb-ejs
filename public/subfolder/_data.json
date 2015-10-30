@@ -1,0 +1,9 @@
+{
+    "index" : {
+        "title": "This is a sub-folder.",
+
+        "meta": {
+            "title": "Replaced page title • ejs"
+        }
+    }
+}

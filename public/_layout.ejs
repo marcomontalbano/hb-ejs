@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title><%= title %></title>
-        <meta name="description" content="<%= description %>">
-        <link href="<%= config.assets.folder_css %>/main.css" media="all" rel="stylesheet" />
+        <%- partial("_shared/head") %>
     </head>
     <body>
+        <%- partial("_shared/header") %>
         <%- yield %>
+        <%- partial("_shared/footer") %>
     </body>
 </html>
