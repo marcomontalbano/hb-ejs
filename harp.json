@@ -15,7 +15,7 @@
             "assets": {
                 "folder_css"    : "/assets/stylesheets",
                 "folder_js"     : "/assets/javascripts",
-                "folder_bower"  : "/assets/bower_components"
+                "folder_bower"  : "/assets/vendor"
             }
         }
     }

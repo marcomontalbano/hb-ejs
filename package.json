@@ -1,0 +1,33 @@
+{
+    "name" : "hb-ejs",
+    "description" : "A Harp boilerplate that uses `.ejs` instead of `.jade`.",
+    "author" : {
+        "name" : "Marco Montalbano",
+        "url" : "http://marcomontalbano.com/"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/mmontalbano/hb-ejs"
+    },
+    "keywords" : [
+        "marcomontalbano",
+        "harp",
+        "boilerplate",
+        "ejs",
+        "test",
+        "bower"
+    ],
+
+    "dependencies" : {
+        "gulp" : "*",
+
+        "phantomjs"            : "*",
+        "gulp-jasmine-phantom" : "*",
+
+        "jshint-stylish" : "*",
+        "gulp-jshint"    : "*",
+
+        "gulp-plumber" : "*",
+        "gulp-notify"  : "*"
+    }
+}
