@@ -1,12 +1,17 @@
+<% var pathPrefix = '';
+   for (var i = 1; i < current.path.length; i++) {
+      pathPrefix += '../';
+   };
+%>
 <!DOCTYPE html>
 <html>
     <head>
-        <%- partial("_shared/_head") %>
+        <%- partial('_shared/_head', { pathPrefix: pathPrefix }) %>
     </head>
     <body>
-        <%- partial("_shared/_header") %>
+        <%- partial('_shared/_header', { pathPrefix: pathPrefix }) %>
         <%- yield %>
-        <%- partial("_shared/_footer") %>
-        <%- partial("_shared/_footer_script") %>
+        <%- partial('_shared/_footer', { pathPrefix: pathPrefix }) %>
+        <%- partial('_shared/_footer_script', { pathPrefix: pathPrefix }) %>
     </body>
 </html>
