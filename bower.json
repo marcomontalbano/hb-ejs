@@ -1,0 +1,25 @@
+{
+    "name": "hb-ejs",
+    "homepage": "https://github.com/mmontalbano/hb-ejs",
+    "authors": [
+        "Marco Montalbano <marcomontalbano.work@gmail.com>"
+    ],
+    "description": "A Harp boilerplate that uses .ejs instead of .jade.",
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+
+    "dependencies": {
+        "jquery" : "~2",
+        "uikit"  : "~2"
+    },
+
+    "devDependencies": {
+
+    }
+}
