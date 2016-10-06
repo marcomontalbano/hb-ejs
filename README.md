@@ -1,11 +1,13 @@
-# Harp Boilerplate • ejs
+Harp Boilerplate • ejs
+======================
 
 A Harp boilerplate that uses `.ejs` instead of `.jade`.
 
 It also include a test suite with Jasmine.
 
 
-## Get started
+Get started
+-----------
 
 Harp is the static web server with built-in preprocessing. [Get started with Harp](http://harpjs.com/docs/quick-start).
 
@@ -14,7 +16,7 @@ Harp is the static web server with built-in preprocessing. [Get started with Har
 sudo npm install -g harp
 
 # then initialize the boilerplate
-harp init -b mmontalbano/hb-ejs myproject
+harp init -b marcomontalbano/hb-ejs myproject
 
 # run server
 harp server myproject
@@ -23,8 +25,35 @@ harp server myproject
 Now visit [localhost:9000](http://localhost:9000) in your browser.
 
 
-## Additional information
 
+Full installation
+-----------------
+
+```sh
+# install needed packages
+sudo npm install -g harp
+#sudo npm install -g bower
+sudo npm install -g gulp
+
+# then initialize the boilerplate
+harp init -b marcomontalbano/hb-ejs myproject
+cd myproject
+
+# install dependencies
+npm install
+#bower install
+
+# run tests
+gulp test
+
+# run server
+harp server
+
+```
+
+
+Further Reading
+---------------
 
 ### Node.js
 
@@ -35,7 +64,6 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 Node.js can be downloaded for Windows, Mac and Linux at [nodejs.org/en/download/](https://nodejs.org/en/download/).
 
 > [nodejs.org](https://nodejs.org/)
-
 
 ### Bower
 
@@ -62,7 +90,6 @@ After done it just run:
 bower install
 ```
 
-
 ### gulp.js
 
 Gulp is a task runner which uses Node.js.
@@ -84,33 +111,9 @@ gulp test
 ```
 
 
-## Full installation
-
-```sh
-# install needed packages
-sudo npm install -g harp
-#sudo npm install -g bower
-sudo npm install -g gulp
-
-# then initialize the boilerplate
-harp init -b mmontalbano/hb-ejs myproject
-cd myproject
-
-# install dependencies
-npm install
-#bower install
-
-# run tests
-gulp test
-
-# run server
-harp server
-
-```
-
-
-## License
+License
+-------
 
 [The MIT License (MIT)](LICENSE.md)
 
-Copyright © 2015 [Marco Montalbano](http://marcomontalbano.com)
+Copyright © [Marco Montalbano](https://marcomontalbano.com)

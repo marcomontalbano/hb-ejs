@@ -2,14 +2,17 @@
     "name" : "hb-ejs",
     "description" : "A Harp boilerplate that uses `.ejs` instead of `.jade`.",
     "author" : {
-        "name" : "Marco Montalbano",
-        "url" : "http://marcomontalbano.com/"
+          "name"  : "Marco Montalbano"
+        , "email" : "me@marcomontalbano.com"
+        , "url"   : "https://marcomontalbano.com"
     },
+    "license": "MIT",
     "repository" : {
         "type" : "git",
-        "url" : "https://github.com/mmontalbano/hb-ejs"
+        "url" : "https://github.com/marcomontalbano/hb-ejs"
     },
     "keywords" : [
+        "mmontalbano",
         "marcomontalbano",
         "harp",
         "boilerplate",
